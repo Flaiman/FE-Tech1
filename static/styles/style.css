@@ -31,6 +31,11 @@ body{
 .header-right{
     float: right;
 } 
+.template_clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 @media screen and (max-width: 768px) {
     .header a {
         float: none;

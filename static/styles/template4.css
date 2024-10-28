@@ -13,12 +13,6 @@
     background-color: #3B2A22;
 }
 
-.fourth_template_clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .table1 {
     border-collapse: collapse;
 }

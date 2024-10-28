@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макет 2</title>
+    <link rel="stylesheet" href="../static/styles/style.css">
+    <link rel="stylesheet" href="../static/styles/template2.css">
+</head>
+<body>
+    <!-- Макети -->
+    <div class="header template_clearfix">
+        <a href="../index.html" class="logo">Комплексна робота №1</a>
+        <div class="header-right">
+            <a href="../index.html">Макет 1</a>
+            <a href="template2.html">Макет 2</a>
+            <a href="template3.html">Макет 3</a>
+            <a href="template4.html">Макет 4</a>
+            <a href="template5.html">Макет 5</a>
+        </div>
+    </div>
+    <!-- Другий макет -->
+    <div class="second_template">
+        <!-- Лого -->
+        <div class="pos1">
+            <img src="../assets/svg/leather-icon.svg" alt="logo" class="logo2">
+            <p class="Company">LeatherCo</p>
+        </div>
+        <!-- Пошукова строка -->
+        <div class="pos2">
+            <label>
+                <input type="text" placeholder="Пошук..." class="Searcher">
+            </label>
+            <button class="Search_button">
+                <img src="../assets/svg/icons8-search.svg" alt="search" class="Search_icon">
+            </button>
+        </div>
+        <!-- Корзина -->
+        <div class="pos3">
+            <button class="Cart_button">
+                <img src="../assets/svg/shopping-cart-outline-svgrepo-com.svg" alt="cart" class="Cart_icon">
+            </button>
+        </div>
+
+        <div class="pos4">
+            <h2>Фільтр</h2>
+            <p class="text1">Категорія:</p>
+            <select name="category" id="category" class="category">
+                <option value="all">Усі</option>
+                <option value="Shoes">Чоботи</option>
+                <option value="Bags">Сумки</option>
+                <option value="Belts">Ремні</option>
+            </select>
+
+            <p class="text1">Країна:</p>
+            <select name="category" id="category" class="category">
+                <option value="all">Усі</option>
+                <option value="Shoes">Китай</option>
+                <option value="Bags">США</option>
+                <option value="Belts">Індія</option>
+            </select>
+
+            <p class="text1">Ціна:</p>
+            <input type="range" id="price-range" name="price" min="1000" max="20000" step="200">
+            <p class="text1">Від 1000 до 20000 грн</p>
+            <button class="Apply_filter">Застосувати зміни</button>
+        </div>
+        
+        <div class="pos5">
+            <div class="main_container">
+                <!-- Чоботи -->
+                <div class="good_container">
+                    <div class="elem1"><img src="../assets/goods/Shoe1.png" alt="Shoe" class="good_img"></div>
+                    <div class="elem2">Чоботи кожані</div>
+                    <div class="elem3">UAH 7000</div>
+                    <div class="elem4"><button class="Buy_button">Купити</button></div>
+                </div>
+
+                <div class="good_container">
+                    <div class="elem1"><img src="../assets/goods/Shoe2.png" alt="Shoe" class="good_img"></div>
+                    <div class="elem2">Чоботи кожані</div>
+                    <div class="elem3">UAH 7000</div>
+                    <div class="elem4"><button class="Buy_button">Купити</button></div>
+                </div>
+
+                <div class="good_container">
+                    <div class="elem1"><img src="../assets/goods/Shoe3.jpg" alt="Shoe" class="good_img"></div>
+                    <div class="elem2">Чоботи кожані</div>
+                    <div class="elem3">UAH 7000</div>
+                    <div class="elem4"><button class="Buy_button">Купити</button></div>
+                </div>
+
+                <div class="good_container">
+                    <div class="elem1"><img src="../assets/goods/Shoe4.jpg" alt="Shoe" class="good_img"></div>
+                    <div class="elem2">Чоботи кожані</div>
+                    <div class="elem3">UAH 7000</div>
+                    <div class="elem4"><button class="Buy_button">Купити</button></div>
+                </div>
+                <!-- Ремні -->
+                <div class="good_container">
+                    <div class="elem1"><img src="../assets/goods/Belt1.jpg" alt="Shoe" class="good_img"></div>
+                    <div class="elem2">Ремінь кожаний</div>
+                    <div class="elem3">UAH 7000</div>
+                    <div class="elem4"><button class="Buy_button">Купити</button></div>
+                </div>
+                <div class="good_container">
+                    <div class="elem1"><img src="../assets/goods/Belt2.jpg" alt="Shoe" class="good_img"></div>
+                    <div class="elem2">Ремінь кожаний</div>
+                    <div class="elem3">UAH 7000</div>
+                    <div class="elem4"><button class="Buy_button">Купити</button></div>
+                </div>  
+                <div class="good_container">
+                    <div class="elem1"><img src="../assets/goods/Belt3.png" alt="Shoe" class="good_img"></div>
+                    <div class="elem2">Ремінь кожаний</div>
+                    <div class="elem3">UAH 7000</div>
+                    <div class="elem4"><button class="Buy_button">Купити</button></div>
+                </div>  
+                <div class="good_container">
+                    <div class="elem1"><img src="../assets/goods/Belt4.png" alt="Shoe" class="good_img"></div>
+                    <div class="elem2">Ремінь кожаний</div>
+                    <div class="elem3">UAH 7000</div>
+                    <div class="elem4"><button class="Buy_button">Купити</button></div>
+                </div>  
+                <!-- Сумки -->
+                <div class="good_container">
+                    <div class="elem1"><img src="../assets/goods/Bag1.jpg" alt="Shoe" class="good_img"></div>
+                    <div class="elem2">Сумка кожана</div>
+                    <div class="elem3">UAH 7000</div>
+                    <div class="elem4"><button class="Buy_button">Купити</button></div>
+                </div>  
+                <div class="good_container">
+                    <div class="elem1"><img src="../assets/goods/Bag2.png" alt="Shoe" class="good_img"></div>
+                    <div class="elem2">Сумка кожана</div>
+                    <div class="elem3">UAH 7000</div>
+                    <div class="elem4"><button class="Buy_button">Купити</button></div>
+                </div>  
+                <div class="good_container">
+                    <div class="elem1"><img src="../assets/goods/Bag3.jpg" alt="Shoe" class="good_img"></div>
+                    <div class="elem2">Сумка кожана</div>
+                    <div class="elem3">UAH 7000</div>
+                    <div class="elem4"><button class="Buy_button">Купити</button></div>
+                </div>  
+                <div class="good_container">
+                    <div class="elem1"><img src="../assets/goods/Bag4.jfif" alt="Shoe" class="good_img"></div>
+                    <div class="elem2">Сумка кожана</div>
+                    <div class="elem3">UAH 7000</div>
+                    <div class="elem4"><button class="Buy_button">Купити</button></div>
+                </div>  
+            </div>
+        </div>
+        <div class="pos6">
+        </div>
+    </div>
+</body>
+</html>

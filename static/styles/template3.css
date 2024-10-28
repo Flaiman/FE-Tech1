@@ -7,13 +7,6 @@
     position: relative;
     padding: 1rem;
 }
-
-.third_template_clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .logo3 {
     width: 6rem;
     height: 6rem;
