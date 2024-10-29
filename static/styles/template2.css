@@ -39,10 +39,6 @@
     grid-area: side;
 }
 
-.pos4,
-.pos5,
-.pos6 {}
-
 .logo2 {
     width: 6rem;
     height: 6rem;
@@ -211,6 +207,9 @@ p {
     }
     .Searcher{
         width: 85%;
+    }
+    .Search_button{
+        width: 10%;
     }
     .main_container{
         grid-template-columns: 1fr;
