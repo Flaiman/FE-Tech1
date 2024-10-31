@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+.first_template {
+    background-color: #4A2C2A;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo1 {
+    width: 6rem;
+    height: 6rem;
+}
+
+.Company {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFD54F;
+}
+.Search{
+    padding: 15px;
+}
+.Search_button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.Search_icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.Searcher {
+    font-size: 1.8rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    height: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 25rem;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    background-color: #332423;
+    padding: 10px;
+    color: #EAE7DC;
+}
+.navigation a{
+    text-decoration: none;
+    color: #EAE7DC;
+    font-size: 1.7rem;
+    padding: 10px;
+}
+.navigation a:hover{
+    color: gold;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.sidebar, .sidebar2{
+    display: flex;
+    flex: 15%;
+    flex-direction: column;
+    background-color: #3A2625;
+    align-items: center;
+}
+.sidebar a, .sidebar2 a{
+    text-decoration: none;
+    color: #EAE7DC;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.sidebar a:hover, .sidebar2 a:hover{
+    color: gold;
+}
+.sidebar .h, .sidebar2 .h{
+    font-weight: bold;
+}
+.image1{
+    width: 100%;
+}
+.main{
+    flex:60%;
+    padding: 0 20px 0 20px;
+}
+.main p{
+    font-size: 1.3rem;
+    color: #EAE7DC;
+}
+@media (max-width: 768px){
+    .head, .navigation{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Searcher{
+        width: 85%;
+    }
+    .sidebar, .main, .sidebar2{
+        flex-direction: column;
+        flex:100%;
+    }
+    .sidebar{
+        margin-bottom: 20px;
+    }
+    .sidebar, .sidebar2{
+        border-radius: 20px;
+    }
+}
+@media screen and (min-width: 1300px) and (min-aspect-ratio: 21/9){
+    .logo1{
+        height: 12rem;
+        width: 12rem;
+
+    }
+    .Company{
+        font-size: 5rem;
+    }
+    .Searcher{
+        height: 7rem;
+        font-size: 3.5rem;
+        width: 40rem;
+    }
+    .Search_icon{
+        height: 4rem;
+        width: 4rem;
+    }
+    .navigation a{
+        font-size: 4.5rem;
+        padding: 2rem 5rem 2rem 5rem;
+    }
+    .sidebar a, .sidebar2 a{
+        font-size: 4rem;
+    }
+    .main p{
+        font-size: 3.5rem;
+    }
+}
